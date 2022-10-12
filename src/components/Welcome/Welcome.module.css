@@ -1,0 +1,206 @@
+.section{
+    scroll-snap-type: y mandatory;   scroll-snap-align: start; 
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+   /*  background-color: black; */
+   background-image: url("https://www.100hdwallpapers.com/wallpapers/4444x2500/aurora_borealis_coastline-other.jpg");
+    background-size: cover;
+    scroll-snap-align: start;scroll-snap-type: y mandatory;
+}
+.titulo{
+
+    font-family: monospace;
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    min-height: 100vh;
+    user-select: none;
+    
+}
+.titulo h2{
+    position: relative;
+    display: flex;
+    gap: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 8em;
+    cursor: pointer;
+    margin-top: 20%;
+    height: 0px; 
+}
+
+.titulo h2 span{
+    position: relative;
+    filter: blur(-1px);
+    padding:  0 5px;
+    transition: 0.5s;
+}
+.titulo h2 span:hover{
+    filter: blur(-400px);
+    transition: 0s;
+}
+
+.titulo span i{
+    position: absolute;
+    inset: 0;
+    height: 50px; 
+    background-color: transparent;
+}
+
+.titulo span:hover i::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 16px;
+    background-color: rgb(249, 249, 249);
+    box-shadow: 0 106px black 
+     72px 106px black
+     72px 0 black
+}
+.titulo span:hover i::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 16px;
+    height: 4px;
+    background-color: black;
+    box-shadow: 0 120px  #fff,
+     60px 120px #fff,
+     60px 0 #fff
+}
+
+.letras{
+margin-right: 50px;
+
+height: 0px;
+
+}
+.letras2{
+margin-left: 50px;
+height: 0px;
+}
+
+.rain{
+    height:100vh;
+    background-image: url("/src/components/Welcome/rain.png");
+    animation: rain 1s linear infinite;
+    opacity: 20%;
+}
+@keyframes rain{
+    0%{
+        background-position: 0% 0%;
+    }
+    100%{
+        background-position: -20% 100%;
+    }
+
+}
+
+.raindrop{
+    content: "";
+    position: absolute;
+/*     top: -50px; */
+    
+    width: 100%;
+    height: 100%;
+    background-image: url("./lightining.png");
+
+    transform:rotate(180deg) ;
+    animation: lightining 3s linear infinite;
+    opacity: 1;
+}
+@keyframes lightining{
+    0%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 0;
+    }
+    21%{
+        opacity: 1;
+    }
+    25%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 0;
+    }
+    31%{
+        opacity: 1;
+    }
+    35%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+.mouseScroll{
+    width: 2.1em;
+    height: 4em;
+    border: solid 1px rgb(0, 8, 0);
+    color:aqua;
+    border-radius: 30px;
+    position: relative;
+    margin-top: -100px;
+    margin-left: 50%;
+}
+
+.mouseScroll::before{
+    content: "";
+    width: 0.8em;
+    height: 0.8em;
+    left: 14px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    animation: scroll 1.5s infinite;
+    background-color: black;
+
+}
+.arrowScroll{
+    position: relative;
+    height: 4em;
+    color: aquamarine;
+}
+
+@keyframes scroll{
+    0%{
+        bottom: 80%;
+        opacity: 10;
+    }
+  
+    100%{
+        bottom: 20%;
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width : 768px){
+    .titulo{
+       max-width: 400px;
+       flex-direction: column;
+        
+      
+    }
+    .letras{
+        max-width: 400px;
+        display: flex;
+
+    }
+    .letras2{
+        max-width: 400px;
+        display: flex;
+    }
+    .mouseScroll{
+        display: none;
+    }
+
+}

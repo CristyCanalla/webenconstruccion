@@ -1,0 +1,65 @@
+.container{
+      height: 5vh;
+      width: 100vw;
+      background-color: #000000c5;
+      display: flex;
+      align-items: center;
+      position: fixed;
+      z-index: 100000000;
+      top: 0px;
+  }
+  .botones{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    margin-right: 50px;
+    align-items: center;
+    position: relative;
+    height: 5vh;
+    width: 100vw;
+   
+    
+  }
+  
+   .links {
+     margin-right: 1.2rem;
+     cursor: pointer;
+     font-family: monospace;
+     font-size: 1.4rem;
+     font-weight: bold;
+     padding-right: 15px;
+     color: white;
+     align-items: center;
+   }
+
+   .links:hover{
+     color: #b6bdba;
+  } 
+    .selectedLink {
+      cursor: pointer;
+      font-family: monospace;
+      font-size: 1.4rem;
+      font-weight: bold;
+      padding-right: 15px;
+      
+      color: #1BD682;
+    }
+  
+    .lenguaje{
+      display: flex;
+      align-items: center;
+      margin-left: 20px;
+      
+    }
+    .lenguaje button{
+      cursor: pointer;
+      border-radius: 50px;
+      background-color: transparent;
+      border: none;
+    }
+    .lenguaje img{
+      width: 40px;
+      height: 40px;
+      margin-right: 10px;
+      background-color: transparent;
+    }

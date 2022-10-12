@@ -1,0 +1,194 @@
+.container{
+    height: 100vh;
+    width: 100%;
+    background: #0F0F11;
+    background: -moz-linear-gradient(top, #0F0F11 0%, #0F0F11 72%, #000000 100%);
+    background: -webkit-linear-gradient(top, #0F0F11 0%, #0F0F11 72%, #000000 100%);
+    background: linear-gradient(to bottom, #0F0F11 0%, #0F0F11 72%, #000000 100%);
+}
+
+.title{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1BD682;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 50px;   
+
+}
+.fila1{
+ display: flex;
+ justify-content: space-around;
+ max-width: 100vw;
+ margin-top: 12%;
+}
+.fila2{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    max-width: 100vw;
+    margin-top: 12%;
+}
+.box{
+    background-image: url("./js.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+    position: relative;
+
+  
+}
+.box2{
+    background-image: url("./react.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+    position: relative;
+    
+  
+}
+.box3{
+    background-image: url("express.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+    position: relative;
+  
+
+}
+.box4{
+    background-image: url("./sequelize.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+    position: relative;
+   
+
+}
+.box5{
+    background-image: url("./css.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+    position: relative;
+  
+  
+}
+.box6{
+    background-image: url("./redux.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+    position: relative;
+    
+  
+}
+.box7{
+    background-image: url("./node.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+    position: relative;
+
+ 
+}
+.box8{
+    background-image: url("./html.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+    position: relative;
+
+}
+.mouseScroll{
+    width: 2.1em;
+    height: 4em;
+    border: solid 2px #fff;
+    border-radius: 30px;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 50%;
+}
+
+.mouseScroll::before{
+    content: "";
+    width: 0.8em;
+    height: 0.8em;
+    left: 14px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    animation: scroll 1.5s infinite;
+    background-color: #fff;
+
+}
+.arrowScroll{
+    position: relative;
+    height: 4em;
+}
+
+@keyframes scroll{
+    0%{
+        bottom: 80%;
+        opacity: 1;
+    }
+  
+    100%{
+        bottom: 20%;
+        opacity: 0;
+    }
+}
+.notebook{
+    display: none;
+}
+
+
+@media screen and (max-width: 1366px) {
+    .container {
+      display: none;
+    }
+    .notebook{
+      display:block
+    }
+  }
+  
+
+/* @media screen and (max-width:768px) {
+    .container{
+        display: none;
+    }
+ 
+    .mouseScroll{
+        display: none;
+    }
+
+    .filas{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+     .filas {
+        display: none;
+    }
+}
+ */

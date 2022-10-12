@@ -1,0 +1,35 @@
+{
+
+    "NavBar":{
+        "Home":"Inicio",
+        "About":"Sobre mi",
+        "Skills":"Habilidades",
+        "Projects":"Proyectos",
+        "Contact":"Contacto"
+    },
+
+    "AboutMe":{
+        "bio":"Soy una desarrolladora web apasionada, responsable y eficiente, es por ello que trabajo muy duro para conseguir mis objetivos.",
+        "bio2":"Me encuentro en constantes capacitaciones de nuevas hábilidades y tecnologías para evolucionar tanto personal como profesionalmente.",
+        "Flasher": "Trabajo en",
+        "cv": "Mira mi CV"
+    },
+    "Projects":{
+        "link": "https://calculatorvirtual.netlify.app/",
+         "url": "https://th.bing.com/th/id/R.d0168f61e4182ee66d413cd79cc0e6b6?rik=k%2fI6vzQ2mYSCgw&riu=http%3a%2f%2fis4.mzstatic.com%2fimage%2fthumb%2fPurple128%2fv4%2f56%2f24%2f88%2f562488f3-e95f-6d20-d49b-4ae045832e78%2fsource%2f576x768bb.jpg&ehk=vNkjYCU0x7X9Pn%2b6TlE6CHuo0OBBmnwV226i%2bL2XmXU%3d&risl=&pid=ImgRaw&r=0",
+         "name": "CALCULADORA ",
+        "description": "Solamente se uso Html, Css y javascript"
+    },
+    
+    "Contact":{
+       
+        "Name": "Nombre",
+        "Number": "Numero",
+        "Email": "Email",
+        "Message": "Mensaje",
+        "Send": "Enviar"
+    }
+
+
+
+}

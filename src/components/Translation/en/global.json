@@ -1,0 +1,32 @@
+{
+    "NavBar":{
+        "Home":"Home",
+        "About":"About",
+        "Skills":"Skills",
+        "Projects":"Projects",
+        "Contact":"Contact"
+    },
+
+    "AboutMe":{
+        "bio":"I´m a passionate, responsible and efficient web developer, that's why I work very hard to achieve my goals.",
+        "bio2": "I´m constantly training myself in new skills and technologies in order to evolve both personally and professionally.",
+        "Flasher": "I work in",
+        "cv": "Look at my CV"
+    },
+    "Projects":{
+        "link": "https://calculatorvirtual.netlify.app/",
+         "url": "https://th.bing.com/th/id/R.d0168f61e4182ee66d413cd79cc0e6b6?rik=k%2fI6vzQ2mYSCgw&riu=http%3a%2f%2fis4.mzstatic.com%2fimage%2fthumb%2fPurple128%2fv4%2f56%2f24%2f88%2f562488f3-e95f-6d20-d49b-4ae045832e78%2fsource%2f576x768bb.jpg&ehk=vNkjYCU0x7X9Pn%2b6TlE6CHuo0OBBmnwV226i%2bL2XmXU%3d&risl=&pid=ImgRaw&r=0",
+         "name": "CALCULATOR ",
+        "description": "Only Html Css and javascript used"
+    },
+
+    
+    "Contact":{
+        "Name": "Name",
+        "Number": "Number",
+        "Email": "Email",
+        "Message": "Message",
+        "Send": "Send"
+    }
+
+}
